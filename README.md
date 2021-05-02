@@ -18,6 +18,7 @@ $ ./install.sh
 
 
 No activation key is needed if using on a Raspberry Pi device. ** This is intended for Personal Use only! **
+
 I may produce a RPM binary at some point in the future however at this stage a manual install script will suffice.
 
 **Known Issues**
