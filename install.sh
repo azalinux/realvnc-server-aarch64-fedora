@@ -2,7 +2,7 @@
 #!/bin/sh
 set -e
 
-sudo dnf -y install libxcrypt-compat
+sudo dnf -y install libxcrypt-compat xterm
 
 sudo mkdir /opt/vc
 sudo tar xvf pifirmware_libs.tar.gz -C /opt/vc/
