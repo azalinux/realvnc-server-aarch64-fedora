@@ -10,8 +10,10 @@ INSTALLATION
 
 To install, clone the git respository and use the included install script:
 
-dnf install git
+$ sudo dnf install git
 
-git clone https://github.com/azalinux/testing
+$ git clone https://github.com/azalinux/realvnc-server-aarch64-fedora
+
+$ ./install.sh
 
 I may produce a RPM binary at some point in the future however at this stage a manual install script will suffice.
