@@ -17,3 +17,9 @@ $ git clone https://github.com/azalinux/realvnc-server-aarch64-fedora
 $ ./install.sh
 
 I may produce a RPM binary at some point in the future however at this stage a manual install script will suffice.
+
+**Known Issues**
+
+I recommend you disable SElinux as it will interfer with some operational parts of RealVNC server.  If you feel the need to have SELinux enabled, you will need to run this command to setup the SElinux exceptions for RealVNC:
+
+$ sudo ./vncinitconfig -register-SELinux
