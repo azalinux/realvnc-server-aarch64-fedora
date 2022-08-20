@@ -12,7 +12,7 @@ sudo ln -s /opt/vc/lib/libbcm_host.so /usr/lib64/libbcm_host.so.0
 
 sudo tar xvf data.tar.xz -C /
 
-tar xvf control.tar.xz
+sudo tar xvf control.tar.xz
 
 sudo sh postinst
 
