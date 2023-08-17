@@ -15,7 +15,7 @@ if [ ! -f "/opt/vc/lib/libvcos.so" ] || [ ! -f "/usr/lib64/libvcos.so.0" ] || [ 
   sudo ln -s /opt/vc/lib/libvchiq_arm.so /usr/lib64/libvchiq_arm.so.0
   sudo ln -s /opt/vc/lib/libbcm_host.so /usr/lib64/libbcm_host.so.0
 else
-  echo "libvcos.so, libvchiq_arm, libbcm_host sym links already exits so moving on..."
+  echo "libvcos.so, libvchiq_arm, libbcm_host sym links already exists so moving on..."
 fi
 
 sudo tar xvf data.tar.xz -C /
