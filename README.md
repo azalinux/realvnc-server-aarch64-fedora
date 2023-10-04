@@ -2,7 +2,7 @@
 
 ******** Still Testing - BETA ******
 
-RealVNC Server Version:    7.6.0
+RealVNC Server Version:    7.6.1
 
 This repository is for installing RealVNC Server ARM64 edition on Fedora 33+ Workstation or Server for your Raspberry Pi device. Has been tested using a Pi4 with 8gb RAM and on multiple desktop environments including XFCE, GNOME, LXQT & Plasma.
 
