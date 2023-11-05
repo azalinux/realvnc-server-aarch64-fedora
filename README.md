@@ -1,7 +1,5 @@
 # realvnc-server-aarch64-fedora
 
-******** Still Testing - BETA ******
-
 RealVNC Server Version:    7.7.0
 
 This repository is for installing RealVNC Server ARM64 edition on Fedora 33+ Workstation or Server for your Raspberry Pi device. Has been tested using a Pi4 with 8gb RAM and on multiple desktop environments including XFCE, GNOME, LXQT & Plasma.
@@ -14,6 +12,11 @@ $ sudo dnf install git
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-fedora
 $ ./install.sh
 ```
+OR use my world first RPM binary installer for aarch64 Fedora of Real VNC server:
+```
+$ wget https://github.com/azalinux/realvnc-server-aarch64-fedora/releases/download/v7.7.0/realvnc-vnc-server-7.7.0-1.aarch64.rpm (or download from the 'Releases' section)
+$ sudo dnf install realvnc-vnc-server-7.7.0-1.aarch64.rpm
+'''
 
 No activation key is needed if using on a Raspberry Pi device. ** This is intended for Personal Use only! **
 
