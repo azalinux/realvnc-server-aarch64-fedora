@@ -13,11 +13,12 @@ $ git clone https://github.com/azalinux/realvnc-server-aarch64-fedora
 $ ./install.sh
 ```
 OR use my world first RPM binary installer for aarch64 Fedora of Real VNC server:
+
 ```
 $ wget https://github.com/azalinux/realvnc-server-aarch64-fedora/releases/download/v7.7.0/realvnc-vnc-server-7.7.0-1.aarch64.rpm (or download from the 'Releases' section)
 $ sudo dnf install realvnc-vnc-server-7.7.0-1.aarch64.rpm
-'''
 
+```
 No activation key is needed if using on a Raspberry Pi device. ** This is intended for Personal Use only! **
 
 **Please note - This free Raspberry Pi edition of RealVnc Server will let clients connect via TCP direct mode rather than UDP direct mode. You need an Enterprise License to connect via UDP!**
