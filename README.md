@@ -6,8 +6,9 @@ This repository is for installing RealVNC Server ARM64 edition on Fedora 33+ Wor
 
 **INSTALLATION**
 
-To install, clone the git respository and use the included install script:
+To install, clone the git respository, remove tigervnc (if it has been installed by default) and use the included install script:
 ```
+$ sudo dnf remove tigervnc-server-minimal
 $ sudo dnf install git
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-fedora
 $ ./install.sh
