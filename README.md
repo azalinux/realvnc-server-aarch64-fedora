@@ -16,8 +16,8 @@ $ ./install.sh
 OR use my world first RPM binary installer for aarch64 Fedora of RealVNC server:
 
 ```
-$ wget https://github.com/azalinux/realvnc-server-aarch64-fedora/releases/download/v7.8.0/realvnc-vnc-server-7.8.0-1.aarch64.rpm
-$ sudo dnf install realvnc-vnc-server-7.8.0-1.aarch64.rpm
+$ wget https://github.com/azalinux/realvnc-server-aarch64-fedora/releases/download/v7.9.0/realvnc-vnc-server-7.9.0-1.aarch64.rpm
+$ sudo dnf install realvnc-vnc-server-7.9.0-1.aarch64.rpm
 
 ```
 No activation key is needed if using on a Raspberry Pi device. ** This is intended for Personal Use only! **
