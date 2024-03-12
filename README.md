@@ -11,6 +11,7 @@ To install, clone the git respository, remove tigervnc (if it has been installed
 $ sudo dnf remove tigervnc-server-minimal
 $ sudo dnf install git
 $ git clone https://github.com/azalinux/realvnc-server-aarch64-fedora
+$ cd realvnc-server-aarch64-fedora
 $ ./install.sh
 ```
 OR use my world first RPM binary installer for aarch64 Fedora of RealVNC server:
